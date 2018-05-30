@@ -33,7 +33,7 @@ The problem involved predicting the articles which a publication will cite based
   - Else if there exists some out_articles with score greater than 0.3, output all those
   - Else if there exists some out_articles with score greater than 0.2, output all those
   - Else if there exists some out_articles with score greater than 0.1, output all those
-  - Else output top 2 scoring articles 
+  - Else output top 4 scoring articles 
   
 - I also observed that if the article's pmid-1 is present in the same set, an article always cites it (probably a continuation of previous work), so if the output doesn't have pmid-1 and pmid-1 is present in the same set, add it to output. 
 
