@@ -21,7 +21,7 @@ The problem involved predicting the articles which a publication will cite based
 - Also I noticed that many authors tend to cite previous papers by themselves and by co authors, so to capture it I included a feature to calculate the intersection of authors of the in_article and out_article as well as the union of these authors and have a value of intersection-over-union of authors. 
 - To capture the difference in publishing dates, I had a feature for the no of months between the in_article publishing date and out_article publishing date. Having months instead of dates helped to prevent overfitting. 
 
-## Classification (finally time to call model.fit :P) 
+## Classification (finally time to call model.fit ) 
 - Used a standard LightGBM model with some parameter tuning to precent overfitting, but most of the work has been done in previous steps. You can see the code for the exact parameters I used. 
 
 ## Prediction and final output
